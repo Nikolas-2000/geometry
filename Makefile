@@ -1,2 +1,2 @@
-all :
-	gcc++ main.cc -Wall -o main
+main:main.c
+	gcc -Wall -o main main.c -lm
