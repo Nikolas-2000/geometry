@@ -14,7 +14,6 @@ int main()
     s = SquareC(r, PI);
     cout << " Perimetr : " << p << " Square : " << s << endl;
 
-
     cout << " Enter sidex of triangle : ";
     cin >> a >> b >> c;
     p = PerimetrT(a, b, c);
