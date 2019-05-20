@@ -33,4 +33,3 @@ int main()
     printf("Perimetr = %f Square = %f\n", p, s);
     return 0;
 }
-
