@@ -117,7 +117,7 @@ CTEST(peres_circle1_t, result_t)
     const int y2 = 6;
     const int r2 = 1;
     // When
-    const int result = Cross(x1, y1, r1, x2, y2, r2);
+    const int result = cross(x1, y1, r1, x2, y2, r2);
     // Then
     const int expected = 1;
     ASSERT_EQUAL(expected, result);
@@ -133,7 +133,7 @@ CTEST(peres_circle2_t, result_t)
     const int y2 = 6;
     const int r2 = 1;
     // When
-    const int result = Cross(x1, y1, r1, x2, y2, r2);
+    const int result = cross(x1, y1, r1, x2, y2, r2);
     // Then
     const int expected = 0;
     ASSERT_EQUAL(expected, result);
